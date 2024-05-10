@@ -1,0 +1,73 @@
+@import "../../_globalColor";
+  
+.aboutme-container {
+    width: 90%;
+    padding: 20px 35px;
+    margin: 0px auto;
+}
+  
+.aboutme-container > * {
+    flex: 1;
+}
+
+.aboutme-cards-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutme-contact-div {
+    display: flex;
+    margin-top: 20px;
+}
+
+.aboutme-cards-flex {
+    display: flex;
+}
+
+.aboutme-cards-img-div {
+    padding: 1rem;
+}
+
+.aboutme-cards-img {
+    max-width: 350px;
+    max-height: 400px;
+    border: 1px solid #333;
+}
+
+.aboutme-heading {
+    font-size: 56px;
+    font-weight: 400;
+}
+
+.subTitle {
+    color: $subTitle !important;
+}
+
+@media (max-width: 1380px) {
+    .aboutme-heading {
+      font-size: 50px;
+    }
+    .aboutme-text-p {
+      font-size: 19px;
+    }
+  }
+  @media (max-width: 768px) {
+    .aboutme-cards-div {
+      justify-content: space-around;
+    }
+    .aboutme-heading {
+      font-size: 30px;
+      text-align: center;
+    }
+    .aboutme-text-p {
+      font-size: 16px;
+      line-height: normal;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .main {
+      width: auto;
+    }
+  }
