@@ -185,18 +185,18 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "UI Developer",
-      company: "FAA",
-      companylogo: require("./assets/images/faa.jpeg"),
-      title: "FAA is a government agency that handles air traffic management and operation of airports.",
-      desc: "Developed a high performance application Air Traffic Operations and Management System for FAA. Responsible for full-stack development to develop the product.",
-    },
-    {
       role: "Front-End Engineer",
       company: "Capital One",
       companylogo: require("./assets/images/capOne.png"),
       title: "Capital One Financial Corporation is an American bank holding company specializing in credit cards and banking.",
       desc: "Built a Reconciliation application for Internal Capital One Users which is used for Reconciliation of Capital One bank transactions."
+    },
+    {
+      role: "UI Developer",
+      company: "FAA",
+      companylogo: require("./assets/images/faa.jpeg"),
+      title: "FAA is a government agency that handles air traffic management and operation of airports.",
+      desc: "Developed a high performance application Air Traffic Operations and Management System for FAA. Responsible for full-stack development to develop the product.",
     },
     {
       role: "Software Engineer",
@@ -223,6 +223,18 @@ const bigProjects = {
   subtitle: "SOME GREAT COMPANIES WHERE I HAVE HELPED THEM TO CREATE APPLICATIONS",
   projects: [
     {
+      image: require("./assets/images/bill-logo.png"),
+      projectName: "Bill.com",
+      projectDesc: "BILL is a leading provider of cloud-based software that simplifies, digitizes, and automates back-office financial processes for small and mid-sized businesses. Created a micro-front codebase for our fintech platform and contributed to many key features for our Accountants.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.bill.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
       image: require("./assets/images/McGraw-Hill_Education.png"),
       projectName: "Connect",
       projectDesc: "McGraw-Hill is a learning science company that provides customized educational content, software, and services for pre-K through postgraduate education. Designed and built Connect app for the Inclusive Access project used across all the LMS Modules like Blackboard, Canvas and D2L. ",
@@ -243,18 +255,6 @@ const bigProjects = {
           name: "Visit Website",
           url: "https://www.faa.gov/air_traffic"
         }
-      ]
-    },
-    {
-      image: require("./assets/images/bill-logo.png"),
-      projectName: "Bill.com",
-      projectDesc: "BILL is a leading provider of cloud-based software that simplifies, digitizes, and automates back-office financial processes for small and mid-sized businesses. Created a micro-front codebase for our fintech platform and contributed to many key features for our Accountants.",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://www.bill.com/"
-        }
-        //  you can add extra buttons here.
       ]
     },
   ],

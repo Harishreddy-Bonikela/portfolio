@@ -1,13 +1,17 @@
 @import "../../_globalColor";
   
-.aboutme-container {
-    width: 90%;
-    padding: 20px 35px;
-    margin: 0px auto;
+.aboutme-main-div {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
 }
-  
-.aboutme-container > * {
-    flex: 1;
+
+// .aboutme-main-div > * {
+//     flex: 1;
+// }
+
+.skills-text-div {
+  margin-left: 50px;
 }
 
 .aboutme-cards-div {
@@ -18,6 +22,7 @@
 .aboutme-contact-div {
     display: flex;
     margin-top: 20px;
+    justify-content: space-evenly;
 }
 
 .aboutme-cards-flex {
@@ -25,7 +30,7 @@
 }
 
 .aboutme-cards-img-div {
-    padding: 1rem;
+    margin-left: 50px;
 }
 
 .aboutme-cards-img {
@@ -45,16 +50,13 @@
 
 @media (max-width: 1380px) {
     .aboutme-heading {
-      font-size: 50px;
+      font-size: 40px;
     }
     .aboutme-text-p {
       font-size: 19px;
     }
   }
   @media (max-width: 768px) {
-    .aboutme-cards-div {
-      justify-content: space-around;
-    }
     .aboutme-heading {
       font-size: 30px;
       text-align: center;
@@ -64,8 +66,17 @@
       line-height: normal;
       text-align: center;
     }
+    .aboutme-main-div {
+      flex-direction: column;
+    }
+    .aboutme-cards-div {
+      justify-content: space-around;
+    }
+    .aboutme-cards-img-div {
+      margin-left: 25px;
+      padding: 20px;
+    }
   }
-  
   @media (max-width: 320px) {
     .main {
       width: auto;

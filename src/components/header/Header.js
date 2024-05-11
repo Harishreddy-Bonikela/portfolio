@@ -29,7 +29,7 @@ function Header() {
   return (
     <Headroom>
       <header className={isDark ? "dark-menu dark-menu-header header" : "light-menu-header header"}>
-        <a href="/" className="logo">
+        <a href="/portfolio/" className="logo">
           <label className="logo-name">{greeting.username}</label>
         </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
