@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.95b4d3cc.css",
-    "main.js": "/portfolio/static/js/main.37f2fe3f.js",
+    "main.css": "/portfolio/static/css/main.ff434994.css",
+    "main.js": "/portfolio/static/js/main.d2c675d7.js",
     "static/css/487.a80739d7.chunk.css": "/portfolio/static/css/487.a80739d7.chunk.css",
     "static/js/487.1ebde006.chunk.js": "/portfolio/static/js/487.1ebde006.chunk.js",
     "static/css/990.8aae3ed8.chunk.css": "/portfolio/static/css/990.8aae3ed8.chunk.css",
@@ -17,8 +17,8 @@
     "static/media/McGraw-Hill_Education.png": "/portfolio/static/media/McGraw-Hill_Education.c6c1b1c3c06b26218b2d.png",
     "static/media/skill.svg": "/portfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/portfolio/index.html",
-    "main.95b4d3cc.css.map": "/portfolio/static/css/main.95b4d3cc.css.map",
-    "main.37f2fe3f.js.map": "/portfolio/static/js/main.37f2fe3f.js.map",
+    "main.ff434994.css.map": "/portfolio/static/css/main.ff434994.css.map",
+    "main.d2c675d7.js.map": "/portfolio/static/js/main.d2c675d7.js.map",
     "487.a80739d7.chunk.css.map": "/portfolio/static/css/487.a80739d7.chunk.css.map",
     "487.1ebde006.chunk.js.map": "/portfolio/static/js/487.1ebde006.chunk.js.map",
     "990.8aae3ed8.chunk.css.map": "/portfolio/static/css/990.8aae3ed8.chunk.css.map",
@@ -26,7 +26,7 @@
     "453.ace21015.chunk.js.map": "/portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.95b4d3cc.css",
-    "static/js/main.37f2fe3f.js"
+    "static/css/main.ff434994.css",
+    "static/js/main.d2c675d7.js"
   ]
 }
