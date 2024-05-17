@@ -189,21 +189,21 @@ const workExperiences = {
       company: "Capital One",
       companylogo: require("./assets/images/capOne.png"),
       title: "Capital One Financial Corporation is an American bank holding company specializing in credit cards and banking.",
-      desc: "Built a Reconciliation application for Internal Capital One Users which is used for Reconciliation of Capital One bank transactions."
+      desc: "Directed a Reconciliation project for Internal Capital One Users which is used for Reconciliation of Capital One bank transactions."
     },
     {
       role: "UI Developer",
       company: "FAA",
       companylogo: require("./assets/images/faa.jpeg"),
       title: "FAA is a government agency that handles air traffic management and operation of airports.",
-      desc: "Developed a high performance application Air Traffic Operations and Management System for FAA. Responsible for full-stack development to develop the product.",
+      desc: "Delegated a high performance application Air Traffic Operations and Management System for FAA. Responsible for full-stack development to develop the product.",
     },
     {
       role: "Software Engineer",
       company: "HSBC",
       companylogo: require("./assets/images/HSBC.jpeg"),
       title: "HSBC is a British universal bank headquartered in London, England, which provides financial services to customers worldwide.",
-      desc: "Worked on Login and Registration of user profile integration by colloborating with business system analysts. "
+      desc: "Lead efforts on Login and Registration of user profile integration by colloborating with business system analysts. "
     }
   ]
 };
@@ -267,7 +267,7 @@ const bigProjects = {
 const testimonialSection = {
   title: emoji("Testimonials 🏆 "),
   subtitle:
-    "WHAT PEOPLE SAY",
+    "WHAT PEOPLE SAY ABOUT MY WORK CONTRIBUTIONS",
 
   testimonialCards: [
     {
@@ -297,23 +297,17 @@ const testimonialSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "With interest in Developing cool stuff, I like to write and read blogs in the tech world",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://medium.com/@harish.bonikela/what-are-different-javascript-errors-7c6672f9cbd2",
+      title: "What are different JavaScript errors?",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Different types of JavaScript Errors. Ways to avoid the JavaScript errors."
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -352,7 +346,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Ready to start collaborating? My Inbox is open for all.",
-  number: "+1-7033959555",
+  number: "+1(703)-395-9555",
   email_address: "harish.bonikela@gmail.com"
 };
 
