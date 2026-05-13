@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Angularjs and some other cool libraries and frameworks. You can contact me through any medium!"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1BK1VfoWQ6hEN0vdGOu4NzIZoTu-Kij2C/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1WZuGijEWmyxpO1VghAr3oeRv6MuYuZsm/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -36,7 +36,7 @@ const aboutMeSection = {
   body: "Can't wait to start collaborating? You can contact me directly and take a peek at my resume below.",
   text: "Outside of work, I like to travel, play soccer and being outdoorsy doing hiking and kayaking.",
   resumeLink:
-    "https://drive.google.com/file/d/1BK1VfoWQ6hEN0vdGOu4NzIZoTu-Kij2C/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1WZuGijEWmyxpO1VghAr3oeRv6MuYuZsm/view?usp=sharing", // Set to empty to hide the button
   display: true
 }
 
